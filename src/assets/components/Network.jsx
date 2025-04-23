@@ -4,11 +4,11 @@ import event from '../images/event.svg';
 function Network() {
   return (
     <>
-    <div id='network' className="flex flex-col items-start justify-center relative overflow-hidden">
+    <div id='network' className="flex flex-col items-start justify-center relative overflow-hidden pt-[50px]">
         {/* Title */}
         <div className="w-[95%] lg:w-[70%] flex flex-col items-center justify-start mx-auto">
             <div className=" static">
-                <div className="lg:w-[100%] text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[25px] lg:text-[35px] font-bold">
+                <div className="lg:w-[100%] playwrite-text text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[25px] lg:text-[35px] font-bold">
                 Your MBA network starts now, engage with your community from the start.
                 </div>
             </div>
@@ -44,11 +44,12 @@ function Network() {
 
     {/* Bottom */}
     <div className='mt-[30px] mb-[30px]'>
-        <div className="text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[22px] lg:text-[35px] font-bold relative w-[90%] mx-auto">
-        Closing Thought: As you begin this journey, remember to “enjoy the journey,
+        <blockquote className="text-[#303a42] text-center text-[22px] lg:text-[35px] font-bold relative w-[90%] italic mx-auto">
+        As you begin this journey, remember to “enjoy the journey,
         not just the destination.” The future is in our hands and MORAD is committed
         to making this MBA experience smoother for everyone.
-        </div>
+        </blockquote>
+        
     </div>
     </>
   )

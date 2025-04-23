@@ -4,8 +4,8 @@ import lasu from '../images/lasu.jpg';
 function CommunityPower() {
   return (
     <>
-    <div id='community' className="mt-[50px] border border-solid border-gray-200 pt-10">
-        <div className="text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[28px] font-bold">
+    <div id='community' className="mt-[0px] border border-solid border-gray-200 pt-10">
+        <div className="playwrite-text text-[#303a42] text-center text-[28px] font-bold">
             The Power of Community and Collaboration
         </div>
         <div className='w-[95%] flex flex-col lg:flex-row items-center justify-start gap-8 mx-auto mt-[20px] mb-[50px]'>

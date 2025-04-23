@@ -41,6 +41,7 @@ function Hero() {
                         People To Know
                     </div>
                 </Link>
+                {/* <button className="rounded-[10px] border-2 border-solid border-yellow-500 pt-[10px] md:pt-[19px] pr-10 pb-[10px] md:pb-[19px] pl-10 flex flex-row gap-2.5 items-start justify-start cursor-pointer no-underline hover:no-underline">Join WhatsApp Group</button> */}
             </div>
         </div>
     </div>

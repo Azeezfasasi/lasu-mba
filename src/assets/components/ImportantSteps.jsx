@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Accordion, Placeholder } from 'rsuite';
 
 function ImportantSteps() {
   return (
     <>
-    <div id='steps' className='mt-[60px] mb-[60px]'>
+    <div id='steps' className='mt-[0px] bg-gray-50 pt-[30px] md:pt-[50px] pb-[50px]'>
         <div className="relative w-[95%] lg:w-[90%] mx-auto">
             {/* Title */}
             <div className="w-full flex flex-col items-center justify-center mx-auto">
-                <div className="text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] w-full text-[25px] lg:text-[35px] font-bold">
+                <div className="playwrite-text text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] w-full text-[25px] lg:text-[35px] font-bold">
                 IMPORTANT FIRST STEPS
                 </div>
                 <div className="text-[rgba(48,58,66,0.80)] text-center font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal" style={{ letterSpacing: "0.02em" }}>
@@ -32,7 +33,7 @@ function ImportantSteps() {
                         </p>
                     </Accordion.Panel>
                     <Accordion.Panel header="Join Class WhatsApp Groups" eventKey={4}>
-                        <p>To stay updated on important announcements, connect with your fellow course mate via WhatsApp and join all groups.
+                        <p>To stay updated on important announcements, connect with your fellow course mate via WhatsApp and join all groups. <Link to="">Click here to join the WhatsApp Group</Link>
                         </p>
                     </Accordion.Panel>
                     <Accordion.Panel header="Familiarize yourself with the campus to make your transition smoother" eventKey={5}>

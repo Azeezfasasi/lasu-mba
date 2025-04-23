@@ -4,8 +4,8 @@ import mission from '../images/mission.svg';
 function Mission() {
   return (
     <>
-    <div id='mission' className="flex flex-row items-center justify-center mx-auto shadow-md px-2 mt-[10px]">
-        <div className='flex flex-col lg:flex-row items-center justify-center bg-[#f7f8fa] mt-10 mb-10 mx-auto px-3'>
+    <div id='mission' className="flex flex-row items-center justify-center mx-auto shadow-md px-2 bg-[#f7f8fa] pt-5 md:pt-10 pb-10">
+        <div className='flex flex-col lg:flex-row items-center justify-center bg-[#f7f8fa] mx-auto px-3'>
             <div className="w-[95%] lg:w-[50%] static">
                 <div className="w-full lg:w-[409px] h-[98px] flex flex-col items-center lg:items-start justify-center">
                     <div className="text-yellow-500 text-center font-['Poppins-Regular',_sans-serif] text-3xl font-normal">
