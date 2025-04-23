@@ -6,9 +6,9 @@ function Network() {
     <>
     <div id='network' className="flex flex-col items-start justify-center relative overflow-hidden">
         {/* Title */}
-        <div className="w-[95%] lg:w-[70%] flex flex-col items-center justify-start mx-auto border">
+        <div className="w-[95%] lg:w-[70%] flex flex-col items-center justify-start mx-auto">
             <div className=" static">
-                <div className="lg:w-[90%] text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[25px] lg:text-[35px] font-bold">
+                <div className="lg:w-[100%] text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[25px] lg:text-[35px] font-bold">
                 Your MBA network starts now, engage with your community from the start.
                 </div>
             </div>

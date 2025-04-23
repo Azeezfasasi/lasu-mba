@@ -41,7 +41,8 @@ const MobileMenu = () => {
               smooth={true}
               duration={500}
               className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
-              onClick={() => setOpen(false)} // Close the drawer after clicking
+              onClick={() => setOpen(false)}
+              style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
               Home
             </Link>
@@ -50,7 +51,8 @@ const MobileMenu = () => {
               smooth={true}
               duration={500}
               className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
-              onClick={() => setOpen(false)} // Close the drawer after clicking
+              onClick={() => setOpen(false)} 
+              style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
               Mission
             </Link>
@@ -59,7 +61,8 @@ const MobileMenu = () => {
               smooth={true}
               duration={500}
               className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
-              onClick={() => setOpen(false)} // Close the drawer after clicking
+              onClick={() => setOpen(false)}
+              style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
               Community
             </Link>
@@ -69,6 +72,7 @@ const MobileMenu = () => {
               duration={500}
               className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
               onClick={() => setOpen(false)}
+              style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
               Steps
             </Link>
@@ -77,7 +81,8 @@ const MobileMenu = () => {
               smooth={true}
               duration={500}
               className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
-              onClick={() => setOpen(false)} // Close the drawer after clicking
+              onClick={() => setOpen(false)}
+              style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
               People
             </Link>
@@ -86,7 +91,8 @@ const MobileMenu = () => {
               smooth={true}
               duration={500}
               className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
-              onClick={() => setOpen(false)} // Close the drawer after clicking
+              onClick={() => setOpen(false)}
+              style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
               Network
             </Link>
