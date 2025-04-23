@@ -26,7 +26,7 @@ function Header() {
             to="home"
             smooth={true}
             duration={500}
-            className="cursor-pointer text-left font-['InriaSans-Regular',_sans-serif] text-lg uppercase font-normal"
+            className="cursor-pointer text-left font-['InriaSans-Regular',_sans-serif] text-[15px] uppercase font-normal"
             style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
           >
             Home
@@ -35,7 +35,7 @@ function Header() {
             to="mission"
             smooth={true}
             duration={500}
-            className="cursor-pointer text-yellow-600 text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+            className="cursor-pointer text-yellow-600 text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
             style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
           >
             Mission
@@ -44,7 +44,7 @@ function Header() {
             to="community"
             smooth={true}
             duration={500}
-            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
             style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
           >
             Community
@@ -53,7 +53,7 @@ function Header() {
             to="steps"
             smooth={true}
             duration={500}
-            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
             style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
           >
             Steps
@@ -62,7 +62,7 @@ function Header() {
             to="people"
             smooth={true}
             duration={500}
-            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
             style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
           >
             People
@@ -71,7 +71,7 @@ function Header() {
             to="network"
             smooth={true}
             duration={500}
-            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+            className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
             style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
           >
             Network

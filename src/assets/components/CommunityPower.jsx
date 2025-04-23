@@ -5,7 +5,7 @@ function CommunityPower() {
   return (
     <>
     <div id='community' className="mt-[0px] border border-solid border-gray-200 pt-10">
-        <div className="playwrite-text text-[#303a42] text-center text-[28px] font-bold">
+        <div className="playwrite-text text-[#303a42] text-center text-[20px] lg:text-[25px] font-bold">
             The Power of Community and Collaboration
         </div>
         <div className='w-[95%] flex flex-col lg:flex-row items-center justify-start gap-8 mx-auto mt-[20px] mb-[50px]'>
@@ -17,7 +17,7 @@ function CommunityPower() {
             </div>
             <div>
                 <div className="w-full lg:w-[647px]">
-                    <div className="text-[#303a42] text-left font-['Inter-Regular',_sans-serif] text-xl leading-[35px] font-normal w-full lg:w-[647px]">
+                    <div className="text-[#303a42] text-left font-['Inter-Regular',_sans-serif] text-[15px] leading-[35px] font-normal w-full lg:w-[647px]">
                     At LASU MBA, we believe that community and collaboration are the keys to
                     success. By working together, sharing ideas, and supporting one another,
                     we can achieve great things. Our community is built on the principles of

@@ -8,11 +8,11 @@ function PeopleToKnow() {
         {/* Title */}
         <div className="w-full lg:w-[50%] flex flex-col items-center justify-start mx-auto">
             <div className=" static">
-                <div className="playwrite-text text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[25px] lg:text-[35px] font-bold">
+                <div className="playwrite-text text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[20px] lg:text-[25px] font-bold">
                 PEOPLE TO KNOW
                 </div>
             </div>
-            <div className="lg:w-[70%] text-[rgba(48,58,66,0.80)] text-center font-['Inter-Regular',_sans-serif] text-[16px] leading-[30px] font-normal"
+            <div className="lg:w-[70%] text-[rgba(48,58,66,0.80)] text-center font-['Inter-Regular',_sans-serif] text-[15px] leading-[30px] font-normal"
                 style={{ letterSpacing: "0.02em" }}
             >
                 Building connections is vital to your MBA experience. Get to know the

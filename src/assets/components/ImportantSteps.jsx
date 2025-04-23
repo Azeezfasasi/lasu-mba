@@ -9,10 +9,10 @@ function ImportantSteps() {
         <div className="relative w-[95%] lg:w-[90%] mx-auto">
             {/* Title */}
             <div className="w-full flex flex-col items-center justify-center mx-auto">
-                <div className="playwrite-text text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] w-full text-[25px] lg:text-[35px] font-bold">
+                <div className="playwrite-text text-[#303a42] text-center font-bold w-full text-[20px] lg:text-[25px]">
                 IMPORTANT FIRST STEPS
                 </div>
-                <div className="text-[rgba(48,58,66,0.80)] text-center font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal" style={{ letterSpacing: "0.02em" }}>
+                <div className="text-[rgba(48,58,66,0.80)] text-center font-['Inter-Regular',_sans-serif] text-[15px] leading-[30px] font-normal" style={{ letterSpacing: "0.02em" }}>
                     To kick off your MBA journey, here are some essential steps to take:
                 </div>
             </div>

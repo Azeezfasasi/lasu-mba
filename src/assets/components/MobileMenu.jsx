@@ -40,7 +40,7 @@ const MobileMenu = () => {
               to="home"
               smooth={true}
               duration={500}
-              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
               onClick={() => setOpen(false)}
               style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
@@ -50,7 +50,7 @@ const MobileMenu = () => {
               to="mission"
               smooth={true}
               duration={500}
-              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
               onClick={() => setOpen(false)} 
               style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
@@ -60,7 +60,7 @@ const MobileMenu = () => {
               to="community"
               smooth={true}
               duration={500}
-              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
               onClick={() => setOpen(false)}
               style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
@@ -70,7 +70,7 @@ const MobileMenu = () => {
               to="steps"
               smooth={true}
               duration={500}
-              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
               onClick={() => setOpen(false)}
               style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
@@ -80,7 +80,7 @@ const MobileMenu = () => {
               to="people"
               smooth={true}
               duration={500}
-              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
               onClick={() => setOpen(false)}
               style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
@@ -90,7 +90,7 @@ const MobileMenu = () => {
               to="network"
               smooth={true}
               duration={500}
-              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-[15px] font-normal uppercase"
               onClick={() => setOpen(false)}
               style={{textDecoration: "none", color: "oklch(68.1% 0.162 75.834)"}}
             >
