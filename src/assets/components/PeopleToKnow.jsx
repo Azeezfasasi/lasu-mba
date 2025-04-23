@@ -25,19 +25,19 @@ function PeopleToKnow() {
             <div className='w-[100%] flex flex-row items-center justify-center gap-1 mx-auto my-3'>
                 <img src={check} alt={check} className='w-8 h-8' />
                 <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
-                    Coordinator of MBA Program: Professor Idris
+                    Coordinator of MBA Program
                 </div>
             </div>
             <div className='w-[100%] flex flex-row items-center justify-center gap-1 mx-auto my-3'>
                 <img src={check} alt={check} className='w-8 h-8' />
                 <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
-                Dean of Post Graduate School: Professor Olateju
+                Dean of Post Graduate School
                 </div>
             </div>
             <div className='w-[100%] flex flex-row items-center justify-center gap-1 mx-auto my-3'>
                 <img src={check} alt={check} className='w-8 h-8' />
                 <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
-                Program Secretary: Mr. Genty
+                Program Secretary
                 </div>
             </div>
             <div className='w-[100%] flex flex-row items-center justify-center gap-1 mx-auto my-3'>
