@@ -4,11 +4,11 @@ import { Accordion, Placeholder } from 'rsuite';
 function ImportantSteps() {
   return (
     <>
-    <div className='mt-[60px] mb-[60px]'>
+    <div id='steps' className='mt-[60px] mb-[60px]'>
         <div className="relative w-[95%] lg:w-[90%] mx-auto">
             {/* Title */}
-            <div className="flex flex-col items-center justify-center mx-auto">
-                <div className="text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] w-full lg:w-[28px] text-[25px] lg:text-[35px] font-bold">
+            <div className="w-full flex flex-col items-center justify-center mx-auto">
+                <div className="text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] w-full text-[25px] lg:text-[35px] font-bold">
                 IMPORTANT FIRST STEPS
                 </div>
                 <div className="text-[rgba(48,58,66,0.80)] text-center font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal" style={{ letterSpacing: "0.02em" }}>
@@ -17,7 +17,7 @@ function ImportantSteps() {
             </div>
 
             {/* Accordion */}
-            <div className='w-full lg"w-[50%] mx-auto mt-[40px]'>
+            <div className='w-full lg:w-[60%] mx-auto mt-[40px]'>
                 <Accordion defaultActiveKey={1} bordered>
                     <Accordion.Panel header="Payment of Important Fees" eventKey={1}>
                         <p>After you have been offered admission, visit the school portal to pay the

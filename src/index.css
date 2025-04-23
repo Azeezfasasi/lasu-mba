@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/* Custom Drawer Styles */
+.custom-drawer {
+    /* height: 50% !important; */
+    width: 70% !important;  /* Set the width to 50% for right placement */
+    max-height: 100% !important; /* Ensure it doesn't exceed 50% */
+    max-width: 70% !important;  /* Ensure it doesn't exceed 50% */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  

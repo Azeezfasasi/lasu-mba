@@ -4,7 +4,7 @@ import lasu from '../images/lasu.jpg';
 function CommunityPower() {
   return (
     <>
-    <div className="mt-[50px] border border-solid border-gray-200 pt-10">
+    <div id='community' className="mt-[50px] border border-solid border-gray-200 pt-10">
         <div className="text-[#303a42] text-center font-['Poppins-Bold',_sans-serif] text-[28px] font-bold">
             The Power of Community and Collaboration
         </div>

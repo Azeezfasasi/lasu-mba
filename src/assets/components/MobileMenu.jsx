@@ -1,8 +1,8 @@
 import React from 'react';
-import { Drawer, ButtonToolbar, Button, Placeholder } from 'rsuite';
+import { Drawer, ButtonToolbar, Button } from 'rsuite';
+import { Link } from 'react-scroll';
 import MenuIcon from '@rsuite/icons/Menu';
-
-const RadioLabel = ({ children }) => <label style={{ padding: 7 }}>{children}</label>;
+import morad from '../images/morad.png';
 
 const MobileMenu = () => {
   const [size, setSize] = React.useState();
@@ -10,29 +10,87 @@ const MobileMenu = () => {
   const [placement, setPlacement] = React.useState('right');
 
   const handleOpen = value => {
-    setSize(value);
+    setSize('xs');
     setOpen(true);
   };
+
   return (
     <>
       <ButtonToolbar>
         <Button size="xs" onClick={() => handleOpen('xs')}>
-          <MenuIcon style={{backgroundColor: "transparent"}}/>
+          <MenuIcon style={{ backgroundColor: 'transparent' }} />
         </Button>
       </ButtonToolbar>
 
-      <Drawer size={size} placement={placement} open={open} onClose={() => setOpen(false)}>
+      <Drawer
+        size={size}
+        placement={placement}
+        open={open}
+        onClose={() => setOpen(false)}
+        className="custom-drawer"
+      >
         <Drawer.Header>
-          <Drawer.Title>Drawer Title</Drawer.Title>
-          <Drawer.Actions>
-            <Button onClick={() => setOpen(false)}>Cancel</Button>
-            <Button onClick={() => setOpen(false)} appearance="primary">
-              Confirm
-            </Button>
-          </Drawer.Actions>
+          <div>
+            <img src={morad} alt="Logo" className="w-[130px] h-[50px]" />
+          </div>
         </Drawer.Header>
         <Drawer.Body>
-          <Placeholder.Paragraph rows={8} />
+          <div className="flex flex-col items-start justify-start gap-5 relative">
+            <Link
+              to="home"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              onClick={() => setOpen(false)} // Close the drawer after clicking
+            >
+              Home
+            </Link>
+            <Link
+              to="mission"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              onClick={() => setOpen(false)} // Close the drawer after clicking
+            >
+              Mission
+            </Link>
+            <Link
+              to="community"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              onClick={() => setOpen(false)} // Close the drawer after clicking
+            >
+              Community
+            </Link>
+            <Link
+              to="steps"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              onClick={() => setOpen(false)}
+            >
+              Steps
+            </Link>
+            <Link
+              to="people"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              onClick={() => setOpen(false)} // Close the drawer after clicking
+            >
+              People
+            </Link>
+            <Link
+              to="network"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer text-[#303a42] text-left font-['InriaSans-Regular',_sans-serif] text-lg font-normal uppercase"
+              onClick={() => setOpen(false)} // Close the drawer after clicking
+            >
+              Network
+            </Link>
+          </div>
         </Drawer.Body>
       </Drawer>
     </>
