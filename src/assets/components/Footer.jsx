@@ -10,7 +10,7 @@ function Footer() {
             <img src={moradcares} alt="Logo" className='w-[130px] h-[50px] rounded-[7px]' />
         </div>
         <div className="text-[#ffffff] text-left font-['Poppins-Regular',_sans-serif] text-lg font-normal">
-            2025 Copywrite. All Right Reserved
+            2025 Copyrite. All Right Reserved
         </div>
     </div>
 
