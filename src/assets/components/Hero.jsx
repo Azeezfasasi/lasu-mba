@@ -6,7 +6,7 @@ import hero3 from '../images/hero3.jpg';
 function Hero() {
   return (
     <>
-    <div className="flex flex-row items-center relative h-fit lg:h-[580px] w-full overflow-hidden py-[20px] bg-cover bg-top bg-no-repeat" style={{ backgroundImage: `url(${hero3})` }}>
+    <div id="home" className="flex flex-row items-center relative h-fit lg:h-[580px] w-full overflow-hidden py-[20px] bg-cover bg-top bg-no-repeat" style={{ backgroundImage: `url(${hero3})` }}>
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -29,10 +29,10 @@ function Hero() {
             </div>
 
             {/* Hero buttons */}
-            <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mt-10 z-50">
-                <Link to="steps" smooth={true} duration={500} className="bg-yellow-500 rounded-[10px] pt-[19px] pr-10 pb-[19px] pl-10 flex flex-row gap-2.5 items-start justify-start border-solid border-[#ffffff] border cursor-pointer no-underline hover:no-underline" style={{backgroundColor: "oklch(68.1% 0.162 75.834),", color: "white"}}>
-                    <div className="text-white text-left font-['Inter-Bold',_sans-serif] text-lg font-bold relative no-underline hover:no-underline">
-                        Important Steps
+            <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mt-10">
+                <Link to="people" smooth={true} duration={500} className="rounded-[10px] border-2 border-solid border-yellow-500 pt-[19px] pr-10 pb-[19px] pl-10 flex flex-row gap-2.5 items-start justify-start cursor-pointer no-underline hover:no-underline">
+                    <div className="text-[#ffffff] text-left font-['Inter-Bold',_sans-serif] text-lg font-bold relative no-underline hover:no-underline">
+                    Important Steps
                     </div>
                 </Link>
                 <Link to="people" smooth={true} duration={500} className="rounded-[10px] border-2 border-solid border-yellow-500 pt-[19px] pr-10 pb-[19px] pl-10 flex flex-row gap-2.5 items-start justify-start cursor-pointer no-underline hover:no-underline">

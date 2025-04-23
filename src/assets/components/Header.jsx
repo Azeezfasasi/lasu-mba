@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       {/* For mobile devices */}
-      <div className="lg:hidden h-[70px] flex flex-row items-center justify-between relative overflow-hidden px-10 shadow-md bg-white">
+      <div className="lg:hidden h-[70px] flex flex-row items-center justify-between overflow-hidden px-10 shadow-md bg-white sticky top-0 z-50">
         <div>
           <img src={morad} alt="Logo" className="w-[130px] h-[50px]" />
         </div>
@@ -15,7 +15,7 @@ function Header() {
       </div>
 
       {/* For large devices */}
-      <div className="hidden h-[70px] lg:flex flex-row items-center justify-between relative overflow-hidden px-10 shadow-md bg-white">
+      <div className="hidden h-[70px] lg:flex flex-row items-center justify-between overflow-hidden px-10 shadow-md bg-white sticky top-0 z-50">
         {/* Logo */}
         <div>
           <img src={morad} alt="Logo" className="w-[130px] h-[50px]" />
