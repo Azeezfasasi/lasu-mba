@@ -20,20 +20,20 @@ function Network() {
         
         {/* Items lists */}
         <div className='w-[95%] lg:w-[50%] shadow-md px-3 py-6 mx-auto mt-[20px] mb-[20px] rounded-md border border-solid border-gray-200 flex flex-col items-start justify-start gap-0'>
-            <div className='w-[100%] flex flex-row items-center justify-center gap-4 mx-auto my-3'>
+            <div className='w-[100%] flex flex-row items-start justify-center gap-4 mx-auto my-3'>
                 <img src={event} alt={event} className='w-8 h-8' />
                 <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-[15px] lg:text-lg leading-[30px] font-normal">
                 LASUMBA Election: Participate in the voting process to choose the right team
                 for your needs. Morad has the capacity to show!
                 </div>
             </div>
-            <div className='w-[100%] flex flex-row items-center justify-center gap-4 mx-auto my-3'>
+            <div className='w-[100%] flex flex-row items-start justify-center gap-4 mx-auto my-3'>
                 <img src={event} alt={event} className='w-8 h-8' />
                 <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-[15px] lg:text-lg leading-[30px] font-normal">
                 MBA Orientation Program: Participate in this event that is organized and designed to welcome and integrate new students into the LASU MBA program.
                 </div>
             </div>
-            <div className='w-[100%] flex flex-row items-center justify-center gap-4 mx-auto my-3'>
+            <div className='w-[100%] flex flex-row items-start justify-center gap-4 mx-auto my-3'>
                 <img src={event} alt={event} className='w-8 h-8' />
                 <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-[15px] lg:text-lg leading-[30px] font-normal">
                 Get involved and expand your network by joining LASUMBA and GBENUSI Community.

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Accordion, Placeholder } from 'rsuite';
+import check from '../images/check.svg';
+
 
 function ImportantSteps() {
   return (
     <>
-    <div id='steps' className='mt-[0px] bg-gray-50 pt-[30px] md:pt-[50px] pb-[50px]'>
+    <div id='steps' className='mt-[0px] bg-gray-50 pt-[0px] md:pt-[50px] pb-[10px] md:pb-[50px]'>
         <div className="relative w-[95%] lg:w-[90%] mx-auto">
             {/* Title */}
             <div className="w-full flex flex-col items-center justify-center mx-auto">
@@ -17,32 +19,39 @@ function ImportantSteps() {
                 </div>
             </div>
 
-            {/* Accordion */}
-            <div className='w-full lg:w-[60%] mx-auto mt-[40px]'>
-                <Accordion defaultActiveKey={1} bordered>
-                    <Accordion.Panel header="Payment of Important Fees" eventKey={1}>
-                        <p>After you have been offered admission, visit the school portal to pay the
-                        required fees like Acceptance Fee, Medical Fee, LACACA Fee and Library Fee.</p>
-                    </Accordion.Panel>
-                    <Accordion.Panel header="School fee payment" eventKey={2}>
-                        <p>The school fee payment can be made in two (2) installments of 70% and 30%. 
-                        </p>
-                    </Accordion.Panel>
-                    <Accordion.Panel header="Activate Your LASU Student Portal" eventKey={3}>
-                        <p>In order to access essential resources and information through the portal activate your LASU student portal and ensure you complete your course registration as soon as possible.
-                        </p>
-                    </Accordion.Panel>
-                    <Accordion.Panel header="Join Class WhatsApp Groups" eventKey={4}>
-                        <p>To stay updated on important announcements, connect with your fellow course mate via WhatsApp and join all groups. <Link to="">Click here to join the WhatsApp Group</Link>
-                        </p>
-                    </Accordion.Panel>
-                    <Accordion.Panel header="Familiarize yourself with the campus to make your transition smoother" eventKey={5}>
-                        <p>Class Venues: Know where your classes will take place. -  Faculty Office: Find out where to meet your professors. -  Library: Discover the resources available for your studies. -  Cool Spots: Check out popular locations to relax or grab a bite. 
-                        </p>
-                    </Accordion.Panel>
-                </Accordion>
+            {/* Items lists */}
+            <div className='w-[97%] lg:w-[80%] shadow-md pl-3 mx-auto mt-[20px] mb-[20px] rounded-md border border-solid border-gray-200'>
+                <div className='w-[100%] flex flex-row items-start justify-center gap-1 mx-auto my-3'>
+                    <img src={check} alt={check} className='w-8 h-8' />
+                    <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal"> <span className='font-semibold'>Payment of Important Fees:</span> After you have been offered admission, visit the school portal to pay the
+                    required fees like Acceptance Fee, Medical Fee, LACACA Fee and Library Fee.
+                    </div>
+                </div>
+                <div className='w-[100%] flex flex-row items-start justify-center gap-1 mx-auto my-3'>
+                    <img src={check} alt={check} className='w-8 h-8' />
+                    <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
+                    <span className='font-semibold'>School fee payment:</span> The school fee payment can be made in two (2) installments of 70% and 30%.
+                    </div>
+                </div>
+                <div className='w-[100%] flex flex-row items-start justify-center gap-1 mx-auto my-3'>
+                    <img src={check} alt={check} className='w-8 h-8' />
+                    <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
+                    <span className='font-semibold'>Activate Your LASU Student Portal:</span> In order to access essential resources and information through the portal activate your LASU student portal and ensure you complete your course registration as soon as possible.
+                    </div>
+                </div>
+                <div className='w-[100%] flex flex-row items-start justify-center gap-1 mx-auto my-3'>
+                    <img src={check} alt={check} className='w-8 h-8' />
+                    <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
+                    <span className='font-semibold'>Join Class WhatsApp Groups:</span> To stay updated on important announcement and get necessary reading materials click: <Link to="">WhatsApp Group</Link>
+                    </div>
+                </div>
+                <div className='w-[100%] flex flex-row items-start justify-center gap-1 mx-auto my-3'>
+                    <img src={check} alt={check} className='w-8 h-8' />
+                    <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
+                    <span className='font-semibold'>Familiarize yourself with the campus to make your transition smoother:</span> Class Venues: Know where your classes will take place. -  Faculty Office: Find out where to meet your professors. -  Library: Discover the resources available for your studies. -  Cool Spots: Check out popular locations to relax or grab a bite. 
+                    </div>
+                </div>
             </div>
-  
         </div>
     </div>
     </>

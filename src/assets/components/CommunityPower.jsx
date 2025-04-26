@@ -17,7 +17,7 @@ function CommunityPower() {
             </div>
             <div>
                 <div className="w-full lg:w-[647px]">
-                    <div className="text-[#303a42] text-left font-['Inter-Regular',_sans-serif] text-[15px] leading-[35px] font-normal w-full lg:w-[647px]">
+                    <div className="text-[#303a42] text-justify font-['Inter-Regular',_sans-serif] text-[15px] leading-[35px] font-normal w-full lg:w-[647px]">
                     At LASU MBA, we believe that community and collaboration are the keys to
                     success. By working together, sharing ideas, and supporting one another,
                     we can achieve great things. Our community is built on the principles of

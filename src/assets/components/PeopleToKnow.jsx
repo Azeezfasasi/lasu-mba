@@ -4,7 +4,7 @@ import check from '../images/check.svg';
 function PeopleToKnow() {
   return (
     <>
-    <div id='people' className="flex flex-col items-start justify-center relative overflow-hidden pt-[40px] pb-[40px] bg-gray-100">
+    <div id='people' className="flex flex-col items-start justify-center relative overflow-hidden pt-[40px] pb-[10px] md:pb-[40px] bg-gray-100">
         {/* Title */}
         <div className="w-full lg:w-[50%] flex flex-col items-center justify-start mx-auto">
             <div className=" static">

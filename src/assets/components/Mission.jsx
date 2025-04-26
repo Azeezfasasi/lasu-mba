@@ -15,7 +15,7 @@ function Mission() {
                         LASU MBA COMMUNITY
                     </div>
                 </div>
-                <div className="text-[#303a42] text-left font-['Inter-Regular',_sans-serif] text-[15px] leading-[35px] font-normal">
+                <div className="text-[#303a42] font-['Inter-Regular',_sans-serif] text-[15px] leading-[35px] font-normal text-justify">
                 We’re thrilled to have you join us on this exciting journey and as you
                 embark on this transformative and exciting experience, we want you to know
                 that you're not alone. You're part of a vibrant community of like-minded

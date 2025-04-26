@@ -29,7 +29,7 @@ function Hero() {
             </div>
 
             {/* Hero buttons */}
-            <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mt-10">
+            <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mt-10 z-50">
                 <Link to="steps" smooth={true} duration={500} className="rounded-[10px] pt-[10px] md:pt-[19px] pr-10 pb-[10px] md:pb-[19px] pl-10 flex flex-row gap-2.5 items-start justify-start cursor-pointer no-underline hover:no-underline" style={{backgroundColor: "oklch(68.1% 0.162 75.834)", cursor: "pointer", textDecoration: "none"}}>
                     <div className="text-[#ffffff] text-left font-['Inter-Bold',_sans-serif] text-lg font-bold relative no-underline hover:no-underline">
                     Important Steps
@@ -41,7 +41,6 @@ function Hero() {
                         People To Know
                     </div>
                 </Link>
-                {/* <button className="rounded-[10px] border-2 border-solid border-yellow-500 pt-[10px] md:pt-[19px] pr-10 pb-[10px] md:pb-[19px] pl-10 flex flex-row gap-2.5 items-start justify-start cursor-pointer no-underline hover:no-underline">Join WhatsApp Group</button> */}
             </div>
         </div>
     </div>
