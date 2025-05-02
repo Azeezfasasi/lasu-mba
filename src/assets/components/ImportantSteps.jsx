@@ -54,7 +54,7 @@ function ImportantSteps() {
                 <div className='w-[100%] flex flex-row items-start justify-center gap-1 mx-auto my-3'>
                     <img src={check} alt={check} className='w-8 h-8' />
                     <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
-                        <span className='font-semibold'>Join Class WhatsApp Groups</span> <br />To stay updated on important announcement and get necessary reading materials. <a href='https://chat.whatsapp.com/DOkruJS6Epl8jqdeFZ29X5'>For further information</a>
+                        <span className='font-semibold'>Join Class WhatsApp Groups</span> <br />To stay updated on important announcement and get necessary reading materials. <a target='blank' href='https://chat.whatsapp.com/DOkruJS6Epl8jqdeFZ29X5'>For further information</a>
                     </div>
                 </div>
             </div>

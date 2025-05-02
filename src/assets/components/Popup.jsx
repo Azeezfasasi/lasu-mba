@@ -31,7 +31,7 @@ const Popup = () => {
             <br />
             <p>Please note that we will address the members appropriately once we have all new managers added to this group.</p>
             <br />
-            <a href=''>For further information</a>
+            <a target='blank' href='https://chat.whatsapp.com/DOkruJS6Epl8jqdeFZ29X5'>For further information</a>
             <br /><br />
             <p>Once again you are welcome to LASU & God bless you.</p>
 
