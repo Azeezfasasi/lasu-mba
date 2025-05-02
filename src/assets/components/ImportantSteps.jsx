@@ -69,10 +69,9 @@ function ImportantSteps() {
                     <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
                     LASU is known for academic excellence, therefore you are advised to take all the lectures serious.
                     The pass mark is 50%. The scores are allocated based on examinations and CAs.
-                    Exam is rated 70% while CA is 30%, the CA can be inform of Tests/Assignments/Attendances. <br /> This is where good relationship with the lecturer is required with good leadership from your set.
-
-                    <ul>
-                        <span>Grading</span>
+                    Exam is rated 70% while CA is 30%, the CA can be inform of Tests/Assignments/Attendances. 
+                    <ul className='mt-4 list-disc list-inside'>
+                        <span className='font-semibold'>Grading</span>
                         <li><span className='font-semibold'>A</span> - 70% and above</li>
                         <li><span className='font-semibold'>B</span> - 60% - 69%</li>
                         <li><span className='font-semibold'>C</span> - 50% - 59%</li>

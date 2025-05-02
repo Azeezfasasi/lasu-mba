@@ -9,13 +9,14 @@ import Network from './assets/components/Network'
 import Footer from './assets/components/Footer';
 import { Helmet } from 'react-helmet';
 import Popup from './assets/components/Popup'
+import BackToTop from './assets/components/BackToTop'
 
 function Home() {
   return (
     <>
     <Helmet>
       <title>LASU MBA - Home</title>
-      <meta name="description" content="Welcome to the LASU MBA community!" />
+      <meta name="description" content="Welcome to the LASU MBA community! We are here to assist in providing necessary academic and social supports to all the incoming Managers" />
       <meta name="keywords" content="LASU, MBA, Community, Education" />
     </Helmet>
     <Header />
@@ -26,6 +27,7 @@ function Home() {
     <ImportantSteps />
     <PeopleToKnow />
     <Network />
+    <BackToTop />
     <Footer />
     </>
   )

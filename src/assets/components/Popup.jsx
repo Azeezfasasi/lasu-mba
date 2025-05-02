@@ -15,13 +15,9 @@ const Popup = () => {
 
   return (
     <>
-      {/* <ButtonToolbar>
-        <Button onClick={handleOpen}>Open</Button>
-      </ButtonToolbar> */}
-
       <Modal open={open} onClose={handleClose}>
         <Modal.Header>
-          <Modal.Title>Welcome!</Modal.Title>
+          <Modal.Title><p className='font-semibold'>Welcome!</p></Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div>
@@ -35,12 +31,12 @@ const Popup = () => {
             <br /><br />
             <p>Once again you are welcome to LASU & God bless you.</p>
 
-            <p>Morad</p>
+            <p className='italic'>Morad</p>
           </div>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={handleClose} appearance="primary">
-            Ok
+            Close
           </Button>
         </Modal.Footer>
       </Modal>
