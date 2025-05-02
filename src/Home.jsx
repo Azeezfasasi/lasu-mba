@@ -8,6 +8,7 @@ import PeopleToKnow from './assets/components/PeopleToKnow'
 import Network from './assets/components/Network'
 import Footer from './assets/components/Footer';
 import { Helmet } from 'react-helmet';
+import Popup from './assets/components/Popup'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <meta name="keywords" content="LASU, MBA, Community, Education" />
     </Helmet>
     <Header />
+    <Popup />
     <Hero />
     <Mission />
     <CommunityPower />
