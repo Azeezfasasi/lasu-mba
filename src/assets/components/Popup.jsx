@@ -16,21 +16,20 @@ const Popup = () => {
   return (
     <>
       <Modal open={open} onClose={handleClose}>
-        <Modal.Header>
+        {/* <Modal.Header>
           <Modal.Title><p className='font-semibold'>Welcome!</p></Modal.Title>
-        </Modal.Header>
+        </Modal.Header> */}
         <Modal.Body>
-          <div>
-            <p className='font-semibold'>Good day Incoming Manager,</p>
-            <p>We are a team of professionals and members of LASU MBA. We are here to assist in providing necessary academic and social supports to all the incoming Managers.</p>
-            <p>The aim of this is to support and ensure that you have hitch free process during your screening and MBA journey (which we believe can be achieved).</p>
+          <div className='text-justify'>
+            <p className='font-semibold text-justify'>Dear Future Leaders,</p>
+            <p>Welcome to the Lagos State University MBA program!</p>
+            <p>We are a team of professionals and members of LASU MBA. We are here to assist in providing necessary academic and social supports to all the incoming Managers. Our mission is to provide you with the academic and social support needed to ensure a smooth and successful start to your MBA journey.</p>
+            <p>From your screening process to settling in, we are here to assist you every step of the way and help make your experience as seamless as possible.</p>
             <br />
-            <p>Please note that we will address the members appropriately once we have all new managers added to this group.</p>
+            <p>Once again, welcome to LASU. We wish you a rewarding journey ahead.</p>
             <br />
-            <a target='blank' href='https://chat.whatsapp.com/DOkruJS6Epl8jqdeFZ29X5'>For further information</a>
-            <br /><br />
-            <p>Once again you are welcome to LASU & God bless you.</p>
 
+            <p>Warm regards,</p>
             <p className='italic'>Morad</p>
           </div>
         </Modal.Body>

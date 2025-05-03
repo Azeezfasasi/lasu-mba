@@ -61,22 +61,22 @@ function ImportantSteps() {
         </div>
 
         {/*  */}
-        <div id='people' className="flex flex-col items-start justify-center relative overflow-hidden">
-            
+        <div className="flex flex-col items-start justify-center relative overflow-hidden">  
             {/* Items lists */}
-            <div className='w-[97%] lg:w-[40%] shadow-md pl-3 mx-auto mt-[20px] mb-[20px] rounded-md border border-solid border-gray-200'>
+            <div className='w-[97%] lg:w-[40%] shadow-md px-6 mx-auto mt-[20px] mb-[20px] rounded-md border border-solid border-gray-200'>
                 <div className='w-[100%] flex flex-row items-center justify-center gap-1 mx-auto my-3'>
-                    <div className="w-full text-[#000000] text-left font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal">
-                    LASU is known for academic excellence, therefore you are advised to take all the lectures serious.
-                    The pass mark is 50%. The scores are allocated based on examinations and CAs.
-                    Exam is rated 70% while CA is 30%, the CA can be inform of Tests/Assignments/Attendances. 
-                    <ul className='mt-4 list-disc list-inside'>
-                        <span className='font-semibold'>Grading</span>
-                        <li><span className='font-semibold'>A</span> - 70% and above</li>
-                        <li><span className='font-semibold'>B</span> - 60% - 69%</li>
-                        <li><span className='font-semibold'>C</span> - 50% - 59%</li>
-                        <li>Less than 50% is FAIL.</li>
-                    </ul>
+                    <div className="w-full text-[#000000] font-['Inter-Regular',_sans-serif] text-lg leading-[30px] font-normal text-justify">
+                        <p>LASU is renowned for its commitment to academic excellence. As such, all lectures must be taken seriously, and class attendance is compulsory.
+                        </p>
+                        <p>The pass mark is set at 50%. Final scores are determined through a combination of examinations and Continuous Assessments (CAs). The examination constitutes 70% of the total score, while the remaining 30% comes from CAs, which may include tests, assignments, and class participation, including attendance.
+                        </p>
+                        <ul className='mt-4 list-disc list-inside'>
+                            <span className='font-semibold'>Grading Scale:</span>
+                            <li><span className='font-semibold'>A</span> - 70% and above</li>
+                            <li><span className='font-semibold'>B</span> - 60% - 69%</li>
+                            <li><span className='font-semibold'>C</span> - 50% - 59%</li>
+                            <li>Less than 50% - FAIL</li>
+                        </ul>
                     </div>
                 </div>
             </div>
